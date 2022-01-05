@@ -1,0 +1,14 @@
+{ 
+     "models": { 
+          "ban": [{ 
+             "title": ["Tu cuenta ha sido suspendida"], 
+             "body": ["Es posible que hayas infrigido alguna de nuestras normas"],
+             "extra": ["Si piensas que esto en un error contáctanos"] 
+          }],
+          "premiumUp": [{
+               "title": ["¡Fuiste ascendido a premium!"], 
+               "body": ["Gracias por visitar la página"],
+               "extra": ["Si requiere alguna ayuda, puede contactarnos"] 
+          }]
+     }
+}

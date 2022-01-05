@@ -1,0 +1,33 @@
+{ 
+     "users": { 
+
+
+        "0001": [ { 
+             "name": ["Jorge"],
+             "secondname" : ["Ortega"],
+             "curso": ["3ro FGI A"], 
+             "plantel": ["SIUUUUUUUUUUU"], 
+             "ban": [false],
+             "premium": [true],
+             "showmsg": [false],
+             "sub": [
+               "Español",
+               "Historia",
+               "Matemáticas",
+               "Biología",
+               "Química",
+               "Física",
+               "Inglés",
+               "ToK",
+               "EFísica",
+               "Emprendimiento",
+               "Investigación"
+             ]
+          } ]
+
+
+
+
+
+     }
+}
