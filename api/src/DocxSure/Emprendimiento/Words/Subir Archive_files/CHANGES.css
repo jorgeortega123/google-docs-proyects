@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="CHANGES.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="buttons.css" />
+    <link rel="stylesheet" type="text/css" href="msg-content.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <"title">Subir Archive</"title">
+</head>
+<body id="body-id" class="body container">
+    <div id="allpage"class="all-page">
+    <div id="sky_" class="sky">
+        <div class="mooncake"></div>
+        <div id="stars_" class="stars" ></div>
+        <div id="stars1_" class="stars1" ></div>
+        <div id="stars2_" class="stars2" ></div>
+        <div id="stars3_" class="shooting-stars" onclick="alert('SIUUUUUUUUU')"></div>
+    </div>
+<div id = "react"></div>
+</div>
+<script src="/static/js/bundle.js"></script><script src="/static/js/vendors~main.chunk.js"></script><script src="/static/js/main.chunk.js"></script></body>
+<script src="extra.js"></script>
+<script type="application/json" src="data.json"></script>
+</html>

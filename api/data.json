@@ -1,26 +1,7 @@
-
-{ 
-     "name": "Ortega Jorge ",
-     "Curso": "3ro FGI A",
-     "subjects": [
-          "Español",
-           "Historia",
-           "Matemáticas", 
-           "Biología", 
-           "Química", 
-           "Física", 
-           "Inglés", 
-           "ToK", 
-           "EFísica", 
-           "Emprendimiento",
-           "Investigación"
-          ],
-           "temas": [ { 
-                "uno": ["#870000", "#190a05" ],
-                "dos": [],
-                "tre": []
-
-           }],
-      "text": "ASDN ASD SAD ASDSA DKASD ASD ASDLÑKAS DA DLASDAskd"          
-           
+{
+  "name": "SADAD",
+  "Curso": "3ro FGI A",
+  "subjects": ["ASDASD", "ASDDs"],
+  "temas": [{ "uno": ["#870000", "#190a05"], "dos": [], "tre": [] }],
+  "text": "ASDN ASD SAD ASDSA DKASD ASD ASDLÑKAS DA DLASDAskd"
 }

@@ -1,0 +1,53 @@
+*{
+     box-sizing: 0;
+ 
+ }
+ .msg {
+     display: flex;
+     position: relative;
+   justify-content: center;
+ }
+ .msg-content::before { 
+  width: calc(100% - 80px);
+  border-radius: 12px;
+  height: 18px;
+   justify-content: center;
+ } 
+
+ .msg-content {
+     content: normal;
+     width: calc(100% - 80px);
+     border-radius: 12px;
+     height: 18px;
+     transition: 4s;
+    
+     text-align: center;
+   background-color: rgb(219, 141, 141);
+   /*transform: translateX(00%) translateY(0%);*/
+   justify-content: center;
+   position: absolute;
+  animation: saddsa 3s;
+  animation: asdds 30s;
+ 
+ }
+ 
+ @keyframes saddsa {
+     from { 
+     opacity: 0%;        
+ 
+ 
+     } to { 
+     opacity: 100;
+     }
+     
+ }
+ @keyframes asdds {
+     from { 
+         
+ opacity: 100;
+ 
+     } to { 
+     opacity: 10%;    
+     }
+     
+ }

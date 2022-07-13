@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.form-body-color{ 
+     overflow: visible;
+     background: linear-gradient(
+          160deg,
+          rgb(19, 90, 172) 24%,
+          rgb(11, 67, 124) 
+        );
+}
+aall-coverr{ 
+     height: 100vh;
+}
+.form-main { 
+width: 100%;
+height: 100%;
+background: rgb(224, 105, 7);
+display: flex;
+justify-content: center;
+}
+.form-title{ 
+     text-size-adjust: 54px;
+     font-size: 50px;
+     color: rgb(255, 255, 255);
+     
+     padding-top: 5px; 
+     padding-bottom: 5px;
+     margin-top: 5px;
+
+}
+.form-title-p { 
+     font-family: 'Roboto Slab', serif;
+
+     padding-top: 5px; 
+     padding-bottom: 5px;
+     margin-top: 5px;
+     margin-bottom: 0px;
+}
+.form-body {
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.form-body-align { 
+     background-color: rgba(163, 206, 195, 0.246);
+ border: 2px solid rgba(255, 255, 255, 0.692);
+ height: 460px;
+ border-radius: 10px;
+ width: 650px;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+}
+.form-nombre-apellido { 
+     width: 100%;
+     padding: 5px;
+     padding-left: 8px;
+   text-align: left;
+     
+}
+.second-page-form-sub {
+     width: 100%;
+     padding: 5px;
+     text-align: left;
+}
+.form-spinner { 
+     position: absolute;
+     justify-content: center;
+     align-items: center;
+     margin-left: 12px;
+     padding-top: 8px;
+     margin-left: 25%;
+}
+.form-spinner-tex { 
+     text-align: center;
+     margin-left: -12px;
+}
+
+.form-title-p{ 
+     text-align: center;
+}
+
+
+
+.subs-div-add-and-del{ 
+     display: flex;
+     text-align: justify;
+}
+.input-add-materias{ 
+     outline: 0;
+     margin-top: 5px;
+     padding-top: 3px;
+     width: 80%;
+}
+.input-add-materias:hover{ 
+     outline: rgba(31, 37, 34, 0.561) solid 1px;
+}
+.input-add-materias:active{ 
+     outline: rgba(31, 37, 34, 0.726) solid 1px;
+}
+
+
+
+.input-add-materias-button{ 
+     padding-top: 0;
+     margin-top: 0;
+     text-align: center;
+     margin-left: 1px;
+     width:25px;
+     height: 22px;
+}
+.parrafo-matter{ 
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+     .form-repuestas-input-materias{ 
+ width: 98%;
+ background-color: aquamarine;
+ display: flex;
+ justify-content: space-between;
+}
+.form-buttons-align {
+     background-color: aquamarine; 
+     display: flex;
+     justify-content: flex-end;
+}
+.titles{
+     
+     font-family: "Luxurious Roman";
+     font-size: 22px;
+     padding: 2px;
+     margin-top: 12px;
+     margin-bottom: 2px; 
+}
+.form-apellido-class,.form-nombre-class, .form-curso-class,.formm-colegio-class {
+     outline: rgb(31, 37, 34) solid 1px;
+     border: 0 solid;
+     border-radius: 5px;
+     width: 70%;
+
+}
+.form-apellido-class:active,.form-nombre-class:active, .form-curso-class:active,.formm-colegio-class:active {
+    transition: 0.01s;
+     outline: rgb(228, 28, 21) solid 2px;
+
+}
+.form-apellido-class:hover,.form-nombre-class:hover, .form-curso-class:hover,.formm-colegio-class:hover {
+      outline: rgb(22, 32, 128) solid 2px;
+ 
+ }
+
+
+.formm-colegio-class{ 
+     width: 80%;
+}
+
+
+.error-msg { 
+     color: cornsilk;
+     z-index: 2;
+     display: block;
+     position: absolute;
+/*     transform: translateX(calc(100vh - 50%)) translateY();*/
+     width: 300px;
+     height: 124px;
+     background-color: rgba(18, 66, 121, 0.726);
+     /*right: calc(50% - 181px);*/
+     top: 25px;
+     left: 25px;
+     text-align: center;
+     border-radius: 10px;
+     animation:  move 0.6s linear;
+     /*
+     display: block;
+     padding: 10px 0;
+     background: aqua;
+     width: 350px;
+     text-align: end;
+     
+     transform: translate(-10px, 5px); 
+     position: absolute;
+     animation: form 5s */
+     
+}
+
+.select-form {
+     outline: 0;
+     color: #0f409b;
+     background: #06578685;
+     border: none;
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 250px;
+   }
+.select-form:hover{ 
+     background: #065786c0;
+}
+
+.button-ready{ 
+     border: 1px solid rgba(255, 255, 255, 0.472);
+     /*border:rgb(60, 0, 255) solid 4px;*/
+     font-size: 16px;
+     color: rgb(137, 255, 216);
+     transition: 0.2s;
+     outline: 0;
+
+     margin-top: 10px;
+     padding-top: 0px;
+     background-color: rgba(18, 66, 121, 0.527);
+     width: 180px;
+     height: 40px;
+     border-radius: 23px;
+}
+.button-ready:hover{ 
+     transition: 1s;
+     background-color: rgba(18, 66, 121);
+}
+.button-ready:active{ 
+     transition: 0.1s;
+     background-color: rgba(18, 28, 121, 0.671);
+}
+
+
+.text-button-ready{ 
+     padding: 0;
+     margin: 0;
+}
+
+@keyframes form {
+     from{ 
+          transform: translateY(-125px);
+          opacity: 0.1;
+     }
+     to{ 
+          transform: translateY(0);
+     }
+
+     
+}

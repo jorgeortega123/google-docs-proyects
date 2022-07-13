@@ -1,0 +1,40 @@
+{
+  "docs": [
+    { "id": "asd", "topic": "t", "sub": "materia" },
+    { "id": "ASDAD", "topic": "ASDASD", "sub": "SADASDASD", "sad": "ASD" },
+    { "id": "ASDAD", "topic": "ASDASD", "sub": "SADASDASD", "sad": "ASD" },
+    { "id": "ASDAD", "topic": "ASDASD", "sub": "SADASDASD", "sad": "ASD" },
+    { "id": "ASDAD", "topic": "ASDASD", "sub": "SADASDASD", "sad": "ASD" },
+    { "id": "ASDAD", "topic": "ASDASD", "sub": "SADASDASD", "sad": "ASD" }
+  ],
+  "matters": {
+    "m": {
+      "materia": "Matematicas",
+      "create": [
+        { "t": ""title"", "l": "link" },
+        { "t": ""title"", "l": "link" }
+      ]
+    }
+  },
+  "s": [
+    {
+      "materia": {
+        "id": "tok",
+        "create": [
+          { "id": "link", "topic": "tema", "sub": "materia", "d": "fecha" },
+          { "id": "link", "topic": "tema", "sub": "materia", "d": "fecha" }
+        ]
+      }
+    }, 
+    {
+     "materia": {
+       "id": "Matematicas",
+       "create": [
+         { "id": "links", "topic": "temsa", "sub": "matesria", "d": "fsecha" },
+         { "id": "links", "topic": "tesa", "sub": "matesria", "d": "fescha" }
+       ]
+     }
+   },
+    { "materia": { "id": "D ", "create": [] } }
+  ]
+}

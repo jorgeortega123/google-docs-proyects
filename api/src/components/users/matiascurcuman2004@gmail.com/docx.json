@@ -1,0 +1,97 @@
+{
+  "docs": [
+    {
+      "topic": [
+        "./src/components/users/matiascurcuman2004@gmail.com",
+        "1SHt88Idu2dQoEKeBNp1NGS0To0F6N8NmMena8vPP-9o",
+        "Documento sin título"
+      ]
+    },
+    {
+      "topic": [
+        "./src/components/users/matiascurcuman2004@gmail.com",
+        "1OToCrc8N9H5kXF9Qo1kWPipatpwckG1id_lzJhdZepg",
+        "_plantilla"
+      ]
+    },
+    {
+      "topic": [
+        "./src/components/users/matiascurcuman2004@gmail.com",
+        "1f37_K5JjbeNfZ-OwnmFmBqF5ypJEBZJVsT9En8Ztfpw",
+        "_plantilla"
+      ]
+    },
+    {
+      "topic": [
+        "./src/components/users/matiascurcuman2004@gmail.com",
+        "1-rbvCNKs8Hdn3dUAvvjYM2rZ24_U2xB4s9dRo9Bs9vo",
+        "Hola"
+      ]
+    }
+  ],
+  "subs": {
+    "m": [
+      {
+        "materia": {
+          "id": "Matematicas",
+          "create": [
+            {
+              "id": "links",
+              "topic": "temsa",
+              "sub": "matesria",
+              "d": "fsecha"
+            },
+            {
+              "id": "links",
+              "topic": "tesa",
+              "sub": "matesria",
+              "d": "fescha"
+            },
+            {
+              "topic": [
+                "./src/components/users/matiascurcuman2004@gmail.com",
+                "1SHt88Idu2dQoEKeBNp1NGS0To0F6N8NmMena8vPP-9o",
+                "Documento sin título"
+              ]
+            },
+            {
+              "topic": [
+                "./src/components/users/matiascurcuman2004@gmail.com",
+                "1OToCrc8N9H5kXF9Qo1kWPipatpwckG1id_lzJhdZepg",
+                "_plantilla"
+              ]
+            },
+            {
+              "topic": [
+                "./src/components/users/matiascurcuman2004@gmail.com",
+                "1f37_K5JjbeNfZ-OwnmFmBqF5ypJEBZJVsT9En8Ztfpw",
+                "_plantilla"
+              ]
+            },
+            {
+              "topic": [
+                "./src/components/users/matiascurcuman2004@gmail.com",
+                "1-rbvCNKs8Hdn3dUAvvjYM2rZ24_U2xB4s9dRo9Bs9vo",
+                "Hola"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "materia": {
+          "id": "ToK",
+          "create": [
+            {
+              "id": "links",
+              "topic": "temsa",
+              "sub": "matesria",
+              "d": "fsecha"
+            },
+            { "id": "links", "topic": "tesa", "sub": "matesria", "d": "fescha" }
+          ]
+        }
+      }
+    ]
+  }
+}

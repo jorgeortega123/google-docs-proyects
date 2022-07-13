@@ -1,0 +1,227 @@
+body,html{
+	height: 100%;  
+     width: 100%;
+	margin: 0;
+	padding: 0;  
+     border: none;  
+     outline: none;  
+     box-sizing: 0;
+}/*
+html {
+     height: 100%;
+   }
+   
+   html body {
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+     margin: 4px;
+   }*/
+
+.all-web-page{
+     background: rgb(4,4,14);
+     /*
+     background: linear-gradient(
+          178deg,
+          rgb(47 239 222) 50%,
+          rgb(33 80 160) 
+        );*/
+  
+     border: 0;
+     padding: 0;
+  width: 100%; 
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+:root {
+     --main-color-parrafos: rgb(214, 255, 253);
+   }
+
+
+.navbar-left{ 
+     width: 80px;
+     
+     border: 0;
+     padding: 0;
+     background-color: rgb(32,36,47);
+     margin-top: 6px;
+     margin-bottom: 6px;
+     margin-left: 5px;
+     border-radius: 10px;
+     height: calc(100vh -12) ;
+}
+.home-no-navbar{ 
+     margin: 20px;
+     height: calc(100vh - 40px) ;
+     width: calc(100% - 20px);
+     padding-left: 20px;
+     padding-right: 20px;
+     border-radius: 10px;
+  background-color: rgb(32,36,47);
+}
+.svg-home{ 
+    /* filter: invert(66%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(50%) contrast(119%);
+*/
+filter: invert(100%)
+
+}
+
+.home-no-navbar p, label { 
+   color: lightyellow;
+   font-family: "Arial";
+  /* font-family: Roboto, Arial, sans-serif*/
+}
+
+.home-user-img{ 
+     width: 65px;
+     height: 65px;
+     margin: 6px;
+     border-radius: 10px;
+     box-shadow: 0px 1px 6px rgb(139, 131, 131);
+}
+.emoji-setting{ 
+     font-size: 40px
+}
+.navbar-left p { 
+   color: var(--main-color-parrafos);
+   padding: 2px;
+   margin: 2px;
+}
+.resFromServer{ 
+     text-align: left;
+}
+.resFromServer p {
+     margin-left: 0px;
+margin: 2px;
+padding: 2px;
+font-family: "Arial";
+
+}
+
+#upzone.highlight {
+     background: rgba(54, 61, 165, 0.938);
+   }
+ #upzone {
+ 
+ /*background: linear-gradient(to left, #FFB740, #64C9CF); */
+ margin: 12px;
+ margin-right: 19px;
+ border: 2px solid #1c4aad;
+   border-radius: 30px;
+   text-align: center;
+   font-display: center;
+     width: calc(98% - 20px); 
+     height: 110px; 
+     border-top: 15px;
+     opacity: 89%;
+     text-align: center;
+   }  
+ 
+.main-body-tema-options-serverRes{ 
+ 
+        display: flex;
+        flex-direction: column;
+        
+}
+.Console_div{ 
+
+}
+.contain-uno-dos{ 
+     width: 100%;
+     display: flex;
+}
+.st-window{ 
+     display: grid;
+     grid-template-columns: 1;
+     width: 50%;
+   
+}
+
+.resFromServer{ 
+     width: 50%;
+
+}
+
+
+
+
+
+
+
+
+.flotante-msg{ 
+     color: cornsilk;
+     z-index: 2;
+     display: block;
+     position: absolute;
+/*     transform: translateX(calc(100vh - 50%)) translateY();*/
+     width: 300px;
+     height: 124px;
+     /*background-color: rgba(18, 66, 121, 0.726);*/
+     background-color: rgb(81,115,114, 0.3);
+     /*right: calc(50% - 181px);*/
+     bottom: 20px;
+     right: 20px;
+     text-align: center;
+     border-radius: 10px;
+     animation:  move 0.6s linear;
+     /*
+     display: block;
+     padding: 10px 0;
+     background: aqua;
+     width: 350px;
+     text-align: end;
+     
+     transform: translate(-10px, 5px); 
+     position: absolute;
+     animation: form 5s */
+    /* z-index: 2;
+     display: block;
+     position: absolute;
+   transform: translateX(calc(100vh - 50%)) translateY();
+     width: 300px;
+     height: 124px;
+     background-color: rgba(18, 66, 121, 1);
+     right: calc(50% - 181px);
+     top: 0;
+     text-align: center;
+     border-radius: 10px;
+     animation:  move 0.6s linear;*/
+     
+}
+.title-msg-home {
+      margin-top: 20px;
+      text-anchor: start;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: rgb(179, 75, 27);
+}
+.text-msg-home{ 
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       text-indent: 2px;
+}
+
+.error-files{ 
+     text-align: center;
+     z-index: 4;
+     position: absolute;
+     width: 200px; 
+     height: 200px; 
+     background: rgb(4,4,14);
+
+}
+
+
+
+
+
+@keyframes move {
+     from{ 
+          transform: translateX(125px);
+          opacity: 0.01;
+     }
+     to{ 
+          transform: translateY(0);
+     }
+}

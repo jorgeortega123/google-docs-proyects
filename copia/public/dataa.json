@@ -1,0 +1,49 @@
+
+{ 
+     "name": "Ortega Jorge ",
+     "Curso": "3ro FGI A",
+     "subjects": [
+          "Lengua y Literatura",
+           "Historia",
+           "Matemáticas", 
+           "Biología", 
+           "Química", 
+           "Física", 
+           "Inglés", 
+           "Teoria del Conocimiento", 
+           "Educación Física", 
+           "Emprendimiento"],
+           "temas": [ { 
+                "uno": ["#870000", "#190a05" ],
+                "dos": [],
+                "tre": []
+
+           }],
+      "text": "ASDN ASD SAD ASDSA DKASD ASD ASDLÑKAS DA DLASDAskd",   
+      "users" : [ { 
+           "user" : "0001", 
+           "name": "baruc",
+           "psww": "1234", 
+           "premium": true
+          }, 
+          {   
+          "user" : "0002", 
+          "name": "reki",
+          "psww": "iker", 
+          "premium": true}, 
+          {   
+          "user" : "0003", 
+          "name": "ian",
+          "psww": "yan", 
+          "premium": false}, 
+          {   
+          "user" : "0004", 
+          "name": "stalin",
+          "psww": "abanderado", 
+          "premium": true}
+           
+          ] 
+           
+
+           
+}

@@ -1,0 +1,390 @@
+{
+  ""title"": "Hola",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 13,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 13,
+              "textRun": {
+                "content": "Matemáticas\n",
+                "textStyle": {
+                  "bold": true,
+                  "underline": true,
+                  "fontSize": { "magnitude": 14, "unit": "PT" }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13,
+        "endIndex": 108,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13,
+              "endIndex": 20,
+              "textRun": {
+                "content": "Nombre:",
+                "textStyle": { "bold": true, "underline": true }
+              }
+            },
+            {
+              "startIndex": 20,
+              "endIndex": 54,
+              "textRun": {
+                "content": " Jorge Ortega                     ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 54,
+              "endIndex": 60,
+              "textRun": {
+                "content": "Curso:",
+                "textStyle": { "bold": true, "underline": true }
+              }
+            },
+            {
+              "startIndex": 60,
+              "endIndex": 90,
+              "textRun": {
+                "content": " 3ro FGIA A                   ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 90,
+              "endIndex": 96,
+              "textRun": {
+                "content": "Fecha:",
+                "textStyle": { "bold": true, "underline": true }
+              }
+            },
+            {
+              "startIndex": 96,
+              "endIndex": 108,
+              "textRun": { "content": " 21/01/2022\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 108,
+        "endIndex": 130,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 108,
+              "endIndex": 113,
+              "textRun": {
+                "content": "Tema:",
+                "textStyle": { "bold": true, "underline": true }
+              }
+            },
+            {
+              "startIndex": 113,
+              "endIndex": 130,
+              "textRun": { "content": " ASDASDASDASD   \n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 130,
+        "endIndex": 131,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 130,
+              "endIndex": 131,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 131,
+        "endIndex": 132,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 131,
+              "endIndex": 132,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 132,
+        "endIndex": 133,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 132,
+              "endIndex": 133,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": { "unit": "PT" }
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": { ""color"": {} },
+    "pageNumberStart": 1,
+    "marginTop": { "magnitude": 70.85, "unit": "PT" },
+    "marginBottom": { "magnitude": 70.85, "unit": "PT" },
+    "marginRight": { "magnitude": 85.05, "unit": "PT" },
+    "marginLeft": { "magnitude": 85.05, "unit": "PT" },
+    "pageSize": {
+      "height": { "magnitude": 841.8897637795277, "unit": "PT" },
+      "width": { "magnitude": 595.2755905511812, "unit": "PT" }
+    },
+    "marginHeader": { "magnitude": 35.4, "unit": "PT" },
+    "marginFooter": { "magnitude": 35.4, "unit": "PT" },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "background"color"": {},
+          "foreground"color"": { ""color"": { "rgb"color"": {} } },
+          "fontSize": { "magnitude": 12, "unit": "PT" },
+          "weightedFontFamily": {
+            "fontFamily": "Times New Roman",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 200,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "NEVER_COLLAPSE",
+          "spaceAbove": { "unit": "PT" },
+          "spaceBelow": { "magnitude": 8, "unit": "PT" },
+          "borderBetween": {
+            ""color"": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            ""color"": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            ""color"": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            ""color"": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            ""color"": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": { "magnitude": 14.2, "unit": "PT" },
+          "indentStart": { "unit": "PT" },
+          "indentEnd": { "unit": "PT" },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": { "background"color"": {} }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "bold": true,
+          "fontSize": { "magnitude": 24, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 24, "unit": "PT" },
+          "spaceBelow": { "magnitude": 6, "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": true,
+          "fontSize": { "magnitude": 18, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 18, "unit": "PT" },
+          "spaceBelow": { "magnitude": 4, "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": true,
+          "fontSize": { "magnitude": 14, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 14, "unit": "PT" },
+          "spaceBelow": { "magnitude": 4, "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "bold": true,
+          "fontSize": { "magnitude": 12, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 12, "unit": "PT" },
+          "spaceBelow": { "magnitude": 2, "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "bold": true,
+          "fontSize": { "magnitude": 11, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 11, "unit": "PT" },
+          "spaceBelow": { "magnitude": 2, "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "bold": true,
+          "fontSize": { "magnitude": 10, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 10, "unit": "PT" },
+          "spaceBelow": { "magnitude": 2, "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": ""title"",
+        "textStyle": {
+          "bold": true,
+          "fontSize": { "magnitude": 36, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 24, "unit": "PT" },
+          "spaceBelow": { "magnitude": 6, "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "SUB"title"",
+        "textStyle": {
+          "italic": true,
+          "foreground"color"": {
+            ""color"": { "rgb"color"": { "red": 0.4, "green": 0.4, "blue": 0.4 } }
+          },
+          "fontSize": { "magnitude": 24, "unit": "PT" },
+          "weightedFontFamily": { "fontFamily": "Georgia", "weight": 400 }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 18, "unit": "PT" },
+          "spaceBelow": { "magnitude": 4, "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      }
+    ]
+  },
+  "revisionId": "ALm37BWJ_hW_BHQNg1bTL07-0n9DBvUrnzrNZ86QXGZwuoYseC0A6V1ScpZikOJCcS0vz-Y_XxrjGuMA5RHiyg",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "14JVe-GqipUJw3ZwcSh9DAMWhe85fUAXvcnfssAtlXhc"
+}

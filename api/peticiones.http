@@ -1,6 +1,54 @@
 @api = http://localhost:4000
 
 get {{api}}/0001
+###
+get {{api}}/authgoogle
+
+###
+GET {{api}}/loginid/?code=4%2F0AX4XfWhh9IF6J-ZVqnhyTPZLEyxCyq266mTukSKIjDUKgxZygr-V1laLQ9oU-ixOkDlsBg
+###
+
+GET {{api}}/form/matiascurcuman2004@gmail.com
+
+###
+
+
+post {{api}}/docs/v1/create
+Content-Type: application/json
+
+
+{ 
+      "data": { 
+            "data": { 
+           "sub": "Matematicas", 
+            "name": "Jorge Ortega", 
+            "curso": "3ro FGI A",
+            "date": "20/23/32",
+            "topic": "Regresion linela", 
+            "id": "matiascurcuman2004@gmail.com"
+      }
+      }
+}
+ 
+
+###
+POST {{api}}/beforeform
+Content-Type: application/json
+
+
+{ 
+    "data": {  
+ "data": {
+    "access_token": "ya29.A0ARrdaM8jOPMupT0BQLtEzBTgdEYucUbeEjP38pt9x59vcx5mivug79wmqDVtZjwvDK-mYzvagrkLhVwotlysyQ0as3FVnMlaKMbnrym5MgJXHX6ivo7oqAvc2lbvMg8CHHOsDdF5yv4P7iRfE1wOtCRWXNdX",
+    "refresh_token": "1//05yTUsgQdiX73CgYIARAAGAUSNwF-L9IrgkZ4PAPzuTOcFwWJSjugd8d5p_FfYtPy1Z1Ldtf6L7vNaq-NYomT7sKPbS7vvWEwZGY",
+    "scope": "https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/documents https://www.googleapis.com/auth/drive openid https://www.googleapis.com/auth/drive.appdata https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile",
+    "token_type": "Bearer",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjllYWEwMjZmNjM1MTU3ZGZhZDUzMmU0MTgzYTZiODIzZDc1MmFkMWQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI5NjcxMzkwMDU2OTItZGMxY282ZGo5MW1ybmtmbmFlZnJ2dThicXA3cTludm4uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI5NjcxMzkwMDU2OTItZGMxY282ZGo5MW1ybmtmbmFlZnJ2dThicXA3cTludm4uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTUyNTA1Mjk2NTc0MzY2NDExMDIiLCJlbWFpbCI6Im1hdGlhc2N1cmN1bWFuMjAwNEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IkVjUTR4OG5sbm52c21KOFBMLUFnRUEiLCJuYW1lIjoiTWF0aWFzIEN1cmN1bWFuIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FBVFhBSnd3MzBKR0RGZmtVX0RlVW81VTlWLXVwTWNQbkZvQXJFWktkRENaPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik1hdGlhcyIsImZhbWlseV9uYW1lIjoiQ3VyY3VtYW4iLCJsb2NhbGUiOiJlcyIsImlhdCI6MTY0MzgxODczNCwiZXhwIjoxNjQzODIyMzM0fQ.ZR_Vz3Bj5a76JkS0lNMldFdsE0n_L7M4ghUsdmbaLeKPON9v2twlRPraKFAo1u2x7MY5GjNiRMovnbL9V53Pt79T6mCC36OVcvGObM4jzZ_ipuO3xkqnGUqFPwpw8s235x5sWR6Pth85ljtYHtBu3MJM_WfnBzoiZtx7d6VUMfJzsnx5XhNmwQGSY95l8c5JyftGLTVbGSz7VBwkcN_zPNg5hYtuJLgBIIFNm8BLZ6yp0bwv8x7Ig_1dWoVJ0oNRicEu2Jlie3rbGRQ9OE__y4o52TaASFRfPx9rKXSyZrmoNr9jteTU2fqlBiiXuad7IUQystWnWysDdGmnn88m4Q",
+    "expiry_date": 1643822333624
+  }
+  }
+  
+}
 
 
 ###
@@ -18,17 +66,16 @@ post http://localhost:4000/post
 
 {
       "url": "sada://ASDASDM",
-      "title": "HOLA",
+      ""title"": "HOLA",
       "description": "ya tu sabe"
 }
 
 ###
 get {{api}}/videos
 ###
-post {{api}}/post
-
-
+post {{api}}/beforeform
 Content-Type: application/json
+
 
 {
         "n": "Ortega Jorge", 
@@ -49,5 +96,8 @@ Content-Type: application/json
 
 
 {
-      "title": "NO asd asda+dsad as+dEEES"
+      ""title"": "NO asd asda+dsad as+dEEES"
 }
+### 
+GET https://app.tuenti.ec/meta.json
+

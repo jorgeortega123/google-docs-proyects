@@ -1,0 +1,31 @@
+[
+  {
+    "info": {
+      "iduser": "Matiasluehkw",
+      "nombre": "Matias Curcuman",
+      "gmail": "matiascurcuman2004@gmail.com"
+    },
+    "defaultjson": {
+      "more": {
+        "curso": "3ro FGI A",
+        "plantel": "Unidad Educativa Tumbaco",
+        "ban": false,
+        "premium": true,
+        "showmsg": false,
+        "sub": [
+          "Español",
+          "Historia",
+          "Matemáticas",
+          "Biología",
+          "Química",
+          "Física",
+          "Inglés",
+          "ToK",
+          "EFísica",
+          "Emprendimiento",
+          "Investigación"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "requests": [
+    {
+      "insertText": {
+                "location": {
+                    "index": 25
+                },
+                "text": "text1"
+            }
+        },
+                 {
+            "insertText": {
+                "location": {
+                    "index": 50
+                },
+                "text": "text2"
+            }
+        },
+                 {
+            "insertText": {
+                "location": {
+                    "index": 75
+                },
+                "text": "text3"
+            }
+        }
+  ]
+}

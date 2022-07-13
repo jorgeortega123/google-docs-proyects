@@ -52,7 +52,7 @@ export default function DocxCreate(studentt, req, res) {
 
     const doc = new Document({
         creator: name,
-        title: tema,
+        "title": tema,
         lastModifiedBy: "Jorge", 
         keywords: materia,
         description: "Un archivo para la materia de:" + materia,
@@ -85,7 +85,7 @@ export default function DocxCreate(studentt, req, res) {
                         size: 32,
                         bold: true,
                         italics: false,
-                        color: "#CC3300"
+                        "color": "#CC3300"
                     },
                     paragraph: {
                         spacing: {

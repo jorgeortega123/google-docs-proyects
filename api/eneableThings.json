@@ -1,0 +1,28 @@
+{ 
+     "web": { 
+        "interface": { 
+           "block": false 
+       } ,
+        "googleUseId": {
+             "validAuthGoogle": true, 
+              "reason": null
+       }, 
+        "pool": false, 
+        "poolMsg": {
+             "text": null, 
+             "options": { 
+                  "one": null, 
+                  "two": null, 
+                  "thr": null, 
+                  "four": null 
+             }
+         },
+        "event": false, 
+       "WarningMsg": { 
+            "available": false, 
+            "text": null,
+            "classname": null, 
+            
+       }
+     }
+  }

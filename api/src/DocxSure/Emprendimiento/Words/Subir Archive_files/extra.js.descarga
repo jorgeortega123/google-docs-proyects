@@ -1,0 +1,305 @@
+//import { LineNumberRestartFormat } from "docx"
+const dropZone = document.getElementById("upzone");
+const reader = new FileReader();
+const filename = "data.json";
+const backgroundImage_count = 0;
+const novedad = document.getElementById("novedad_");
+const insertar = document.getElementById("contenido");
+const consola = document.getElementById("consola_text")
+const textModify = document.getElementById("anotaciones")
+//const textanotaciones = document.getElementsByClassName("anotaciones")
+//const student = JSON.parse(filename);
+async function jsonCarge() { 
+const response = await fetch("./data.json");
+const student = await response.json(); 
+return student
+textModify.value = student.text
+//document.getElementById("consola_text").value= JSON.stringify(docx_format_)
+//console.log(student.temas[0])
+//console.log(student.temas[uno])
+}
+// jsonCarge()
+//let count_wall= 0;  
+function wallpapers() { 
+ //FORMATO: 
+ let body = document.getElementById("body");
+  var background1 = student.temas[count_wall][1]
+  var background2 = student.temas[count_wall][2]
+  count_back += 1;
+  body.style.background = sas
+  
+  //background: linear-gradient(to right, #870000, #190a05);
+}
+
+
+
+
+
+
+// Show/hide password onClick of button using Javascript only
+
+// https://stackoverflow.com/questions/31224651/show-hide-password-onclick-of-button-using-javascript-only
+/*
+function show() {
+  var p = document.getElementById('pwd');
+  p.setAttribute('type', 'text');
+}
+
+function hide() {
+  var p = document.getElementById('pwd');
+  p.setAttribute('type', 'password');
+}
+
+var pwShown = 0;
+
+document.getElementById("eye").addEventListener("click", function () {
+  if (pwShown == 0) {
+      pwShown = 1;
+      show();
+  } else {
+      pwShown = 0;
+      hide();
+  }
+}, false);
+
+*/
+
+
+
+
+
+
+
+/*
+var ddup = {
+  init: function () {
+    // (A1) GET HTML ELEMENTS
+    ddup.hzone = document.getElementById("upzone");
+    svg = document.getElementById("h1_");
+
+    // (A2) DRAG-DROP SUPPORTED
+    if (window.File && window.FileReader && window.FileList && window.Blob) {
+      // HIGHLIGHT DROPZONE ON FILE HOVER
+      ddup.hzone.addEventListener("dragenter", function (e) {
+        svg.style."color" = "rgb(0, 0, 202)";
+        e.preventDefault();
+        e.stopPropagation();
+
+        ddup.hzone.classList.add("highlight");
+      });
+      ddup.hzone.addEventListener("dragleave", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        svg.style."color" = "#000000";
+        ddup.hzone.classList.remove("highlight");
+      });
+
+      // DROP TO UPLOAD FILE
+      ddup.hzone.addEventListener("dragover", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+      ddup.hzone.addEventListener("drop", function (e) {
+        e.preventDefault();
+        e.stopPropagation();})}
+        /*
+        const file = e.dataTransfer.files[0];
+        if (!file) {
+          return;
+        } else {
+          ddup.hzone.classList.remove("highlight");
+          svg.style."color" = "#000000";
+        }
+        var name = file.name;
+        var type = file.type;
+        if (type == "text/plain") {
+          const input = file;
+          const reader = new FileReader();
+          reader.onload = () => {
+            var texto = reader.result;
+            insertar.innerHTML = texto;
+            console.log(texto);
+          };
+          reader.readAsText(file);
+        } else {
+          novedad.innerText = "El archivo debe ser .txt";
+          //document.getElementById('imagen_svg_1').style.display = "none";
+          //var img = document.createElement('img_error');
+          //img.src= "icons/file _error.svg";
+          //ddup.hzone.appendChild(img);
+        }
+        console.log(name);
+      });
+    }
+  },
+};
+  
+function leerArchivo() {
+  document.getElementById("upzone").addEventListener("drop", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    console.log("sadasdasda");
+    const archivo = e.target.files[0];
+    if (archivo) {
+      document.getElementById("contenido").innerText = "NOOOOOOOOOOOOOOOOO";
+    }
+    const lector = new FileReader();
+    lector.onload = function (e) {
+      const contenido = e.target.result;
+      mostrarContenido(contenido);
+    };
+  });
+  lector.readAsText(archivo);
+}
+
+
+function handleFileSelect(evt) {
+  var files = evt.target.files; // FileList object
+
+  // files is a FileList of File objects. List some properties.
+  var output = [];
+  for (var i = 1, f; (f = files[i]); i++) {
+    output.push(
+      "<li><strong>",
+      escape(f.name),
+      "</strong> (",
+      f.type || "n/a",
+      ") - ",
+      f.size,
+      " bytes, last modified: ",
+      f.lastModifiedDate.toLocaleDateString(),
+      "</li>"
+    );
+  }
+  /////////////////////////LINEA 105 hasta 174//////////////////////
+  document.getElementById("contenido").innerHTML =
+    "<ul>" + output.join("") + "</ul>";
+}
+*/
+
+function escribir() {
+  dc = document.getElementById("consola").value;
+  console.log(dc);
+  document.getElementById("contenido").innerHTML = dc;
+}
+let count_back = 0;
+function change__background() {
+  let body = document.getElementById("body");
+  count_back += 1;
+  
+  let wall = "wallpapers/" + count_back + ".jpg";
+  body.style.backgroundImage = "url(" + wall;
+  body.style.backgroundSize = "100%";
+  body.style.backgroundRepeat = "no-repeat";
+  console.log("url" + wall);
+  console.log(count_back);
+  if (count_back === 6) {
+    count_back = 0;
+    novedad.innerText = "Fondos agotadas";
+  }
+}
+
+function box_check_one() {
+  var name = "Ortega Jorge"
+  var curso = " 3ro FGI A "
+  var checkbox_1 = document.getElementById("ck_box_1");
+  var checkbox_2 = document.getElementById("ck_box_2");
+  var checkbox_3 = document.getElementById("ck_box_3");
+  var checkbox_4 = document.getElementById("ck_box_4");
+  var tema1 = document.getElementById("consola").value
+  var tema = tema1 + " "
+  var materia = document.getElementById("drawfs").value
+
+  var extension = ".docx"
+  if (checkbox_1.checked != true) {
+    name = "";
+  }
+  if (checkbox_2.checked != true) {
+    curso = "";
+  }
+  if (checkbox_3.checked != true) {
+    materia = "";
+  }
+  if (checkbox_4.checked != true) {
+    tema = "";
+  }
+
+  const obj = {
+    n: name, 
+    c: curso, 
+    t: tema,
+    m: materia, 
+    f: extension
+  }
+  var name1 = name.replace(/ /g,'_')
+  var curso1 = curso.replace(/ /g,'_')
+  var tema1 = tema.replace(/ /g,'_')
+  var materia1 = materia.replace(/ /g,'_')
+  var name = name1.replace(/__/g, "_")
+  var curso = curso1.replace(/__/g, "_") 
+  var tema = tema1.replace(/__/g, "_") 
+  var materia = materia1.replace(/__/g, "_")
+  var ultimate1 = "<mark class='red'>" + name +  "</mark><mark class='cas'>" + curso +  "</mark><mark class='red'>" + tema + "</mark><mark class='othr'>" + materia + "</mark><mark class='red'>" + extension + "</mark>"  
+  var ultimate = ultimate1.replace(/__/g, "_")
+  console.log(ultimate1)
+//var name_doc = name + '_' + curso + '_' + tema + '_' + materia + extension
+
+ 
+  document.getElementById("finalresult").innerHTML=ultimate
+  var docx_format_ = JSON.parse(JSON.stringify((obj)))
+  //console.log(docx_format_)
+  document.getElementById("consola_text").value= JSON.stringify(docx_format_)
+}
+
+function SEND_SERVER() { 
+  var jui = document.getElementById("consola_text").value
+ var separate_word = jui.Split(";", 5)
+ var name_ = separate_word[0]
+ var course_ = separate_word[1]
+ var Topic_ = separate_word[2]
+ var Subject_ = separate_word[3]
+ 
+}
+/* schema tipos json 
+datos={
+  'nombre':String,
+  "edad":int
+}
+datos1=new datos{
+  "nombre":LineNumberRestartFormat;
+
+}*/
+
+//document.getElementById('consola').addEventListener("onchange", escribir());
+
+function popup__() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+//FUNCIONES
+box_check_one()
+/*
+//async function sobreEscribir() { 
+//  var content=textModify.value
+//  const response1 = await fetch("./data.json");
+//  const student1 = await response1.json(); 
+ // student1.text = JSON.stringify(content)
+ //      console.log(student1.text )
+//}
+
+textModify.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+      sobreEscribir()  
+    }});*/
+
+
+    
+asdd = document.getElementById("consola")
+asd = document.getElementById("drawfs")
+asd.addEventListener("change", box_check_one);
+
+
+asdd.addEventListener("change", box_check_one);
+window.addEventListener("DOMContentLoaded", ddup.init);
+

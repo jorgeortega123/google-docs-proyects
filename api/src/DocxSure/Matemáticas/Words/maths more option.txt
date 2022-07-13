@@ -1,0 +1,14 @@
+Las aplicaciones de la inteligencia Artificial sobre datos predatorios resultan muy buenas y sobre todo la mayoría de veces es precisa. Por ejemplo hasta cierto punto se puede predecir la alza o baja que tendrá un mercado de valores o el precio de una  criptomoneda a través de los movimientos y cambios fluctuantes de semanas y meses posteriores. En estos casos la inteligencia artificial se basa en Estadísticas descriptivas, teoría de probabilidad, Álgebra lineal, Regresión lineal y Cálculo. Que buscan predecir el mercado de valores a través de los datos anteriores estos varian ya sean por días o incluso meses y años. 
+
+En biología se desarrollo una practica del laboratorio cuyo fin era como se veía los fluidos humanos, específicamente la sangre bajo el microscopio. También se escribió una reseña histórica y conjuntamente se identificaron las partes del microscopio
+
+Traer los materiales para elaborar la muestra y después analizarlos en el microscopio, ver los resultados para posteriormente y extraer conclusiones
+
+https://www.kaggle.com/yadhua/eda-and-predicting-depression/notebook
+
+
+
+https://blog.quantinsti.com/algorithmic-trading-maths/
+
+
+https://www.thelancet.com/action/showPdf?pii=S0140-6736%2821%2902143-7

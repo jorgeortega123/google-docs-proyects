@@ -1,0 +1,556 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/models/Form.jsx":
+/*!****************************************!*\
+  !*** ./src/components/models/Form.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Form; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var spinners_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! spinners-react */ "./node_modules/spinners-react/lib/esm/index.js");
+/* harmony import */ var _styles_form_datos_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/form-datos.css */ "./src/components/styles/form-datos.css");
+/* harmony import */ var _styles_form_datos_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_form_datos_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Luis\\Documents\\Files_manager\\frontend\\src\\components\\models\\Form.jsx";
+
+
+
+
+
+const base_url = "http://localhost:4000";
+var e = ""; //hola XD
+
+class Form extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      interface: false,
+      sub: false,
+      items: [],
+      text: "",
+      newmatter: null,
+      prev: [{}],
+      editEny: false,
+      hola: ["hola"],
+      idedit: "",
+      textt: ""
+    };
+
+    this.interfacActive = () => {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+        id: "form-main",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+          className: "form-"title"",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("p", {
+            className: "form-"title"-p",
+            children: "Completa tus datos"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 116,
+            columnNumber: 11
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 9
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+          className: "form-body",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+            className: "form-body-align",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+              className: "form-nombre-apellido",
+              children: [!this.state.interface && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                className: "form-spinner",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(spinners_react__WEBPACK_IMPORTED_MODULE_2__["SpinnerInfinity"], {
+                  size: "70",
+                  speed: 190,
+                  thickness: 90
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 123,
+                  columnNumber: 19
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                  className: "form-spinner-text",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("p", {
+                    children: "Obteniendo datos..."
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 125,
+                    columnNumber: 21
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 124,
+                  columnNumber: 19
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 122,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("h1", {
+                children: "Nombre:"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 129,
+                columnNumber: 15
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("input", {
+                id: "form-nombre-id",
+                className: "form-nombre-class"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 130,
+                columnNumber: 15
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("h2", {
+                children: "Apellido:"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 131,
+                columnNumber: 15
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("input", {
+                id: "form-apellido-id",
+                className: "form-apellido-class"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 132,
+                columnNumber: 15
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("h2", {
+                children: "Curso:"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 133,
+                columnNumber: 15
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("input", {
+                id: "form-curso-id",
+                className: "form-curso-class",
+                placeholder: "Ej: 3ro FGI A"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 134,
+                columnNumber: 15
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("h2", {
+                children: "Colegio, universidad o plantel educativo:"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 139,
+                columnNumber: 15
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("input", {
+                id: "form-colegio-id",
+                className: "form-colegio-class",
+                placeholder: "Ej: Unidad Educativa Tumbaco"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 140,
+                columnNumber: 15
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("button", {
+                onClick: this.complet,
+                children: "Aucompletar"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 145,
+                columnNumber: 15
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 120,
+              columnNumber: 13
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+              className: "second-page-form-sub",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                className: "form-materias",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("h3", {
+                  children: "Materias y/o asignaturas: "
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 150,
+                  columnNumber: 17
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("select", {
+                  id: "subs"
+                  /* onChange={(e) => getasd(e.target.value)*/
+                  ,
+                  children: this.state.sub && this.state.sub.map(res => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("option", {
+                    value: res,
+                    children: [res, " "]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 155,
+                    columnNumber: 23
+                  }, this))
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 151,
+                  columnNumber: 17
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                  className: "subs-div-add-and-del",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("form", {
+                    onSubmit: this.handleSubmit,
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("input", {
+                      onChange: this.handleChange,
+                      value: this.state.text,
+                      autocomplete: "off",
+                      id: "input-add-materias-id",
+                      className: "input-add-materias",
+                      placeholder: "Puedes agregar una materia desde aqui"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 163,
+                      columnNumber: 21
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("button", {
+                      className: "input-add-materias-button",
+                      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("span", {
+                        children: "\u2795"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 172,
+                        columnNumber: 23
+                      }, this)
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 171,
+                      columnNumber: 21
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                      className: "materoas-y-botones",
+                      children: [this.state.sub && this.state.sub.map(res => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                        className: "form-repuestas-input-materias",
+                        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("p", {
+                          className: "parrafo-matter",
+                          children: res
+                        }, res + res, false, {
+                          fileName: _jsxFileName,
+                          lineNumber: 178,
+                          columnNumber: 29
+                        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                          className: "form-buttons-align",
+                          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("button", {
+                            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("span", {
+                              children: "\u270F\uFE0F"
+                            }, void 0, false, {
+                              fileName: _jsxFileName,
+                              lineNumber: 183,
+                              columnNumber: 33
+                            }, this)
+                          }, void 0, false, {
+                            fileName: _jsxFileName,
+                            lineNumber: 182,
+                            columnNumber: 31
+                          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("button", {
+                            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("span", {
+                              children: "\u274C"
+                            }, void 0, false, {
+                              fileName: _jsxFileName,
+                              lineNumber: 186,
+                              columnNumber: 33
+                            }, this)
+                          }, void 0, false, {
+                            fileName: _jsxFileName,
+                            lineNumber: 185,
+                            columnNumber: 31
+                          }, this)]
+                        }, void 0, true, {
+                          fileName: _jsxFileName,
+                          lineNumber: 181,
+                          columnNumber: 29
+                        }, this)]
+                      }, void 0, true, {
+                        fileName: _jsxFileName,
+                        lineNumber: 177,
+                        columnNumber: 27
+                      }, this)), this.state.items && this.state.items.map(item => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                        className: "form-repuestas-input-materias",
+                        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("p", {
+                          id: "parrafo" + item.id,
+                          className: "parrafo-matter",
+                          children: item.text
+                        }, item.id, false, {
+                          fileName: _jsxFileName,
+                          lineNumber: 194,
+                          columnNumber: 29
+                        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+                          className: "form-buttons-align",
+                          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("button", {
+                            id: "edit" + item.id,
+                            onClick: () => this.edittt("parrafo" + item.id),
+                            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("span", {
+                              children: "\u270F\uFE0F"
+                            }, void 0, false, {
+                              fileName: _jsxFileName,
+                              lineNumber: 203,
+                              columnNumber: 33
+                            }, this)
+                          }, void 0, false, {
+                            fileName: _jsxFileName,
+                            lineNumber: 198,
+                            columnNumber: 31
+                          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("button", {
+                            id: "del" + item.id,
+                            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("span", {
+                              children: "\u274C"
+                            }, void 0, false, {
+                              fileName: _jsxFileName,
+                              lineNumber: 208,
+                              columnNumber: 33
+                            }, this)
+                          }, void 0, false, {
+                            fileName: _jsxFileName,
+                            lineNumber: 205,
+                            columnNumber: 31
+                          }, this)]
+                        }, void 0, true, {
+                          fileName: _jsxFileName,
+                          lineNumber: 197,
+                          columnNumber: 29
+                        }, this)]
+                      }, void 0, true, {
+                        fileName: _jsxFileName,
+                        lineNumber: 193,
+                        columnNumber: 27
+                      }, this))]
+                    }, void 0, true, {
+                      fileName: _jsxFileName,
+                      lineNumber: 174,
+                      columnNumber: 21
+                    }, this)]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 162,
+                    columnNumber: 19
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 161,
+                  columnNumber: 17
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 149,
+                columnNumber: 15
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 148,
+              columnNumber: 13
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 119,
+            columnNumber: 11
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 9
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("p", {
+          children: "SIUU"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 222,
+          columnNumber: 9
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 114,
+        columnNumber: 7
+      }, this);
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  } //constructor(props) {
+  //super(props);
+  //this.state = { items: [], text: '' };
+
+  /*this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);/*/
+
+
+  //[...,{}]
+  componentDidMount() {
+    console.log(e);
+
+    const sd = () => {
+      setTimeout(async () => {
+        await axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(base_url + "/0001").then(data => {
+          console.log(data.data[0].sub);
+
+          if (data.data[0].ban === true) {
+            alert("You have been banned");
+          }
+
+          e = data.data[0].sub;
+          this.setState({
+            sub: data.data[0].sub
+          });
+          const [a, b, c, d] = [data.data[0].name, data.data[0].secondname, data.data[0].curso, data.data[0].plantel];
+          document.getElementById("form-nombre-id").value = a || "";
+          document.getElementById("form-apellido-id").value = b || "";
+          document.getElementById("form-curso-id").value = c || "";
+          document.getElementById("form-colegio-id").value = d || "";
+          this.setState({
+            interface: true
+          });
+          this.setState({
+            next: true
+          });
+        }).catch(e => {
+          this.setState({
+            interface: true
+          });
+          this.setState({
+            error: true
+          });
+          this.setState({
+            textt: e.error || "Error"
+          });
+        });
+      }, 1000);
+    };
+
+    sd();
+  }
+
+  handleChange(e) {
+    this.setState({
+      text: e.target.value
+    });
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+
+    if (this.state.editEny) {
+      console.log("SD");
+      document.getElementById(this.state.idedit).innerHTML = this.state.textt;
+      this.setState({
+        editEny: false
+      });
+    }
+
+    if (this.state.text.length === 0) {
+      return;
+    }
+
+    const newItem = {
+      text: this.state.text,
+      id: Date.now()
+    };
+    this.setState(state => ({
+      items: state.items.concat(newItem),
+      text: ""
+    }));
+  }
+
+  edittt(iid) {
+    if (!document.getElementById(iid)) {
+      return;
+    } //this.state.text
+
+
+    var sa = document.getElementById(iid).textContent;
+    console.log(sa);
+    this.setState({
+      textt: sa
+    });
+    this.setState({
+      idedit: iid
+    });
+    this.setState({
+      editEny: true
+    });
+    document.getElementById("input-add-materias-id").textContent = sa;
+  }
+
+  render() {
+    return this.interfacActive();
+  }
+
+}
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/react-scripts/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/react-scripts/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ })
+
+})
+//# sourceMappingURL=main.4b73682d9bc794a13430.hot-update.js.map

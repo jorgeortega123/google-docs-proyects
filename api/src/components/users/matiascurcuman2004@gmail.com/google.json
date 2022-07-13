@@ -1,0 +1,23 @@
+{
+  "envelope": {
+    "alg": "RS256",
+    "kid": "ca00620c5aa7be8cd03a6f3c68406e45e93b3cab",
+    "typ": "JWT"
+  },
+  "payload": {
+    "iss": "https://accounts.google.com",
+    "azp": "967139005692-dc1co6dj91mrnkfnaefrvu8bqp7q9nvn.apps.googleusercontent.com",
+    "aud": "967139005692-dc1co6dj91mrnkfnaefrvu8bqp7q9nvn.apps.googleusercontent.com",
+    "sub": "115250529657436641102",
+    "email": "matiascurcuman2004@gmail.com",
+    "email_verified": true,
+    "at_hash": "JXlHrZv-OO2prx3q67v3XQ",
+    "name": "Matias Curcuman",
+    "picture": "https://lh3.googleusercontent.com/a/AATXAJww30JGDFfkU_DeUo5U9V-upMcPnFoArEZKdDCZ=s96-c",
+    "given_name": "Matias",
+    "family_name": "Curcuman",
+    "locale": "es",
+    "iat": 1642899405,
+    "exp": 1642903005
+  }
+}

@@ -1,0 +1,18 @@
+{ 
+   "config": { 
+      "interface": { 
+         "block": false 
+     } ,
+      "googleUseId": {
+           "validAuthGoogle": true, 
+            "reason": null
+     }, 
+      "pool": false, 
+      "poolMsg": null,
+      "event": false, 
+     "WarningMsg": { 
+          "available": false, 
+          "text": null
+     }
+   }
+}

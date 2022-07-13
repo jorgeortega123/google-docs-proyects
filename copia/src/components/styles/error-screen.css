@@ -1,0 +1,124 @@
+.main-loading-screenn { 
+  overflow: hidden; 
+  position: relative;
+  padding-top: 1px;
+  width: 100%;
+  height: 450px;
+  /*background-color: rgba(0, 153, 255, 0.459);*/
+  /* Center horizontally*/
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /*animation: animShootingStar 10s infinite*/
+}
+/*
+   .main-screen { 
+     position: relative;
+        display: flex;
+     overflow: hidden; 
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(
+       70deg,
+       rgb(160, 244, 223) 50%,
+       rgb(27, 185, 185) 
+     );
+     margin:0;
+     padding:0;
+     font-family: 'Tomorrow', sans-serif;
+   background-image: linear-gradient(to top, #2e1753, #1f1746, #131537, #0d1028, #050819);
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     overflow:hidden;
+   }*/
+   .text-error{
+    margin-left: auto;
+    margin-right: auto;
+     padding-top:50px;
+     color:#fff;
+     text-align:center;
+   }
+   .error-server-text{ 
+     background: rgba(12, 32, 146, 0.459);
+     border-radius: 9px;
+     color: chartreuse;
+     font-size: 24px;
+   }
+   .error-server-text1{ 
+     font-family:  sans-serif;
+    font-weight: bolder;
+    border-radius: 9px;
+    color: rgba(36, 80, 226, 0.972);
+    font-size: 24px;
+   }
+   h1{
+     font-size:50px;
+   }
+
+   .astronaut img{
+     padding-top: 100px;
+    overflow-x: hidden; 
+     width:100px;
+     position: absolute;
+     top:40%;
+     animation:astronautFly 6s infinite linear;
+   }
+   .mark-error{ 
+    background: rgba(32, 199, 157, 0.733);
+
+   }
+   .sdsss { 
+    position: fixed;
+    left: 2px;
+    bottom: 3px;
+    justify-content: left;
+   }
+   #paarafoerror{ 
+     padding: 2px;
+     margin-top: 2px;
+   }
+   #paarafoerror:hover { 
+     transition: 0.3s;
+    color: rgba(196, 206, 62, 0.76);
+    user-select: all;
+    border-radius: 3px;
+   }
+   @keyframes astronautFly{
+     0%{
+       left:-100px;
+     }
+     25%{
+       top:50%;
+       transform:rotate(30deg);
+     }
+     50%{
+       transform:rotate(45deg);
+       top:55%;
+     }
+     75%{
+       top:60%;
+       transform:rotate(30deg);
+     }
+     100%{
+       left:110%;
+       transform:rotate(45deg);
+     }
+   }
+   @keyframes starTwinkle{
+     0%{
+        background:rgba(255,255,255,0.4);
+     }
+     25%{
+       background:rgba(255,255,255,0.8);
+     }
+     50%{
+      background:rgba(255,255,255,1);
+     }
+     75%{
+       background:rgba(255,255,255,0.8);
+     }
+     100%{
+       background:rgba(255,255,255,0.4);
+     }
+   }
