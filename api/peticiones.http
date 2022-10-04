@@ -11,6 +11,27 @@ GET {{api}}/loginid/?code=4%2F0AX4XfWhh9IF6J-ZVqnhyTPZLEyxCyq266mTukSKIjDUKgxZyg
 GET {{api}}/form/matiascurcuman2004@gmail.com
 
 ###
+post
+https://www.usfq.edu.ec/es/webform/application_registration/submissions/67894/edit?token=64eFWy2UOYOYEaGH6uQd_NghgKK_Cqzwc8sA2w6Jr4s
+
+###
+
+post https://www.usfq.edu.ec/es/webform
+
+Content-Type: application/json
+
+
+{ 
+      
+            "id":"s2131231"
+
+}
+
+
+###
+
+
+
 
 
 post {{api}}/docs/v1/create
